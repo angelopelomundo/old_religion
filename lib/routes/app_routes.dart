@@ -6,11 +6,12 @@ import '../features/event/event_page.dart';
 import '../features/store/store_page.dart';
 import '../features/settings/settings_page.dart';
 
+
 class AppRoutes {
   static final routes = <String, WidgetBuilder>{
     '/': (_) => const HomePage(),
     '/calendar': (_) => const CalendarPage(),
-    '/moon': (_) => const MoonPage(),
+    '/moon': (_) => const LuaPage(),
     '/events': (_) => const EventPage(),
     '/store': (_) => const StorePage(),
     '/settings': (_) => const SettingsPage(),
