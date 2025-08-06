@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../core/widgets/app_nav_bar.dart';
 
 class LuaPage extends StatelessWidget {
-  const LuaPage({Key? key}) : super(key: key);
+  const LuaPage({super.key});
 
   @override
   Widget build(BuildContext context) {
